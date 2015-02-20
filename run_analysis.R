@@ -1,4 +1,4 @@
-path <- "~/R/UCI HAR Dataset"
+path <- getwd()
 nrows <- -1
 
 getdata <- function(set) {
