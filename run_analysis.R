@@ -30,4 +30,4 @@ subject <- n[seq(1, length(n), 2)]
 activity <- n[seq(2, length(n), 2)]
 dataset.means <- cbind(subject = subject, activity = activity, as.data.frame(t(d)))
 
-write.table(dataset.means, "~/R/uci_har_dataset_means.txt", row.names = FALSE, quote = FALSE)
+write.table(dataset.means, "uci_har_dataset_means.txt", row.names = FALSE, quote = FALSE)
